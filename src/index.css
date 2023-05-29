@@ -1,0 +1,14 @@
+:root {
+
+    --primary-text: rgb(94, 96, 111);
+    --bold-text: rgb(18, 22, 49);
+
+    --light-gray: rgb(245, 246, 250);
+    --dark-gray: rgb(105, 110, 130);
+
+    --blue-1: rgb(75,86,165);
+    --highlight: rgb(60,85,204);
+
+    --primary-font: "Helvetica", sans-serif;
+}
+
