@@ -1,10 +1,14 @@
+import { useEffect, useState } from "react"
 
 export const CardImage = ({url, id}) => {
 
-    const imageContainer = document.getElementById(id);
-    // console.log(`url(${url})`);
-    console.log(imageContainer);
-    imageContainer.style.backgroundImage = `url(${url})`;
+  useEffect(() => {
+ 
+    const bgImage = document.getElementById(`${id}`);
+    bgImage.style.backgroundImage = `url(${url})`
+
+  }, [])
+  
 
   return (
     <>

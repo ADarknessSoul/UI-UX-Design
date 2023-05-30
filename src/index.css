@@ -91,7 +91,7 @@ img {
     max-width: 100%;
 }
 
-/*Utilidades*/
+/*Utilities*/
 
 .no-margin {
     margin: 0;
@@ -177,16 +177,6 @@ img {
     background-position: center;
 
 }
-
-
-/* .card-img img {
-
-    border-start-start-radius: 2rem;
-    border-start-end-radius: 2rem;
-    filter: brightness(90%);
-    border-bottom: 1px solid var(--light-gray);
-
-} */
 
 .card-body {
 
@@ -381,5 +371,4 @@ img {
 .number-text:hover {
 
     cursor: pointer;
-
 }
