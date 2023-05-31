@@ -1,17 +1,23 @@
 
-export const CardFooter = () => {
+export const CardFooter = ({info, id}) => {
   return (
     <>
     
-    <hr className="line-break"/>
+    <div className="margin-top-auto">
 
-        <div className="card-footer">
+      <hr className="line-break"/>
+
+      <div className="card-footer">
 
         <button className="footer-booknow">Book now</button>
 
-        <p className="footer-text bold">$299 <span className="footer-subtext">/ night</span></p>
+        <p className="footer-text bold">${info.price} <span className="footer-subtext">/ night</span></p>
+
+      </div>
 
     </div>
+
+
     
     </>
   )

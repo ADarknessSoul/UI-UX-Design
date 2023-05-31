@@ -111,6 +111,12 @@ img {
 
 }
 
+.margin-top-auto {
+
+    margin-top: auto;
+
+}
+
 .bold {
 
     font-weight: bold;
@@ -159,6 +165,8 @@ img {
     box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.41);
     background-color: white;
     border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
 
 }
 

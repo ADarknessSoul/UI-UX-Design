@@ -1,5 +1,8 @@
 
-export const CardIcons = () => {
+export const CardIcons = ({info, id}) => {
+
+    const { iconsInfo } = info;
+
   return (
     <>
     
@@ -8,21 +11,21 @@ export const CardIcons = () => {
         <div className="icons-container">
 
             <img src="../../dist/images/house.svg" alt="house" width="30" className="card-icon"/>
-            <p>House</p>  
+            <p>{iconsInfo.buildType}</p>  
 
         </div>  {/*.icons-container */}
 
         <div className="icons-container">
 
             <img src="../../dist/images/bed.svg" alt="house" width="30" className="card-icon"/>
-            <p>2 beds</p>  
+            <p>{iconsInfo.numberOfBeds} beds</p>  
 
         </div> {/*.icons-container */}
 
         <div className="icons-container">
 
             <img src="../../dist/images/bath-tub.svg" alt="house" width="30" className="card-icon"/>
-            <p>1 bath</p>  
+            <p>{iconsInfo.numberOfBaths} Baths</p>  
 
         </div> {/*.icons-container */}
 
@@ -30,7 +33,7 @@ export const CardIcons = () => {
 
 
             <img src="../../dist/images/car.svg" alt="house" width="30" className="card-icon"/>
-            <p>1 garage</p>  
+            <p>{iconsInfo.numberOfGarages} garage(s)</p>  
 
         </div> {/*.icons-container */}
 

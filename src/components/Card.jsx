@@ -3,7 +3,7 @@ import { CardHeader } from "./CardHeader"
 import { CardIcons } from "./CardIcons"
 import { CardImage } from "./CardImage"
 
-export const Card = ({url, id}) => {
+export const Card = ({url, id, info}) => {
 
   return (
     <>
@@ -14,19 +14,19 @@ export const Card = ({url, id}) => {
 
             <div className="card-body">
 
-               <CardHeader/> 
+               <CardHeader info={info} id={id}/> 
 
-               <CardIcons/>
+               <CardIcons info={info} id={id}/>
 
                <div className="card-description">
 
-                    <p>Experience the wonders of nature as you hike through the snow-capped mountains and fish in the nearby river. This newly built cabin is perched high in the mountains with beautiful sees</p>
+                    <p>{info.description}</p>
 
                </div>
 
             </div> {/*.card-body */}
 
-            <CardFooter/>
+            <CardFooter info={info} id={id}/>
 
         </div> {/*.card */}
 

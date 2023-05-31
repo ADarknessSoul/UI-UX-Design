@@ -1,13 +1,14 @@
 
-export const CardHeader = () => {
+export const CardHeader = ({info, id}) => {
+
   return (
     <>
     
     <div className="card-header">
 
-        <h2 className="no-margin">Mountain retreat</h2>
+        <h2 className="no-margin">{info.title}</h2>
 
-        <p>Snowy Peaks, NSW, Australia</p>
+        <p>{info.location}</p>
 
         <div className="card-review">
 
@@ -21,9 +22,9 @@ export const CardHeader = () => {
 
             </div> {/*.card-stars */}
 
-            <p className="bold">5.0</p>
+            <p className="bold">{info.score}</p>
 
-            <a href="#" className="card-link">38 reviews</a>
+            <a href="#" className="card-link">{info.numReviews} reviews</a>
 
         </div> {/*.card-review */}
 
