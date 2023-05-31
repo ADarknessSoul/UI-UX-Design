@@ -11,7 +11,7 @@ export const UIApp = () => {
       score: 5,
       numReviews: 38,
       description: "Experience the wonders of nature as you hike through the snow-capped mountains and fish in the nearby river. This newly built cabin is perched high in the mountains with beautiful sees",
-      url: "../dist/images/snow_hut.jpg",
+      url: "../images/snow_hut.jpg",
       price: 299,
 
       iconsInfo: {
@@ -31,7 +31,7 @@ export const UIApp = () => {
       score: 4.7,
       numReviews: 17,
       description: "Nestled amidst Hokkaido's natural beauty, this charming house offers a tranquil escape. Embrace the serene ambiance, unwind in the spacious rooms, and bask in the panoramic views. Experience the allure of Hokkaido from the comfort of your own enchanting retreat.",
-      url: "../dist/images/hokkaido.jpg",
+      url: "../images/Hokkaido.jpg",
       price: 180,
 
       iconsInfo: {
@@ -51,7 +51,7 @@ export const UIApp = () => {
       score: 4,
       numReviews: 25,
       description: "Step into the heart of Paripp sian elegance with this charming abode. Discover the allure of the city as you stroll through its romantic streets. Immerse yourself in the vibrant culture and indulge in the enchanting views from this delightful Parisian retreat.",
-      url: "../dist/images/Paris.jpg",
+      url: "../images/Paris.jpg",
       price: 300,
 
       iconsInfo: {

@@ -14,11 +14,11 @@ export const CardHeader = ({info, id}) => {
 
             <div className="card-stars">
 
-                <img src="../../dist/images/star.svg" alt="star" width="15"/>
-                <img src="../../dist/images/star.svg" alt="star" width="15"/>
-                <img src="../../dist/images/star.svg" alt="star" width="15"/>
-                <img src="../../dist/images/star.svg" alt="star" width="15"/>
-                <img src="../../dist/images/star.svg" alt="star" width="15"/>
+                <img src="../images/star.svg" alt="star" width="15"/>
+                <img src="../images/star.svg" alt="star" width="15"/>
+                <img src="../images/star.svg" alt="star" width="15"/>
+                <img src="../images/star.svg" alt="star" width="15"/>
+                <img src="../images/star.svg" alt="star" width="15"/>
 
             </div> {/*.card-stars */}
 

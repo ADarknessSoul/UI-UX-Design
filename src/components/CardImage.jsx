@@ -17,7 +17,7 @@ export const CardImage = ({url, id}) => {
 
         <div className="img-arrow">
 
-            <img src="../../dist/images/left-arrow.svg" alt="left arrow" width="30"/>
+            <img src="../images/left-arrow.svg" alt="left arrow" width="30"/>
 
         </div>      
 
